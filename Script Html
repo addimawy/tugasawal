@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Buku</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 18px;
-            text-align: left;
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-    </style>
+    <title>Halaman Tanpa CSS</title>
 </head>
 <body>
-    <h2>Daftar Buku</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Judul Buku</th>
-                <th>Nomor Buku</th>
-                <th>Harga Buku</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Buku A</td>
-                <td>001</td>
-                <td>Rp50.000</td>
-            </tr>
-            <tr>
-                <td>Buku B</td>
-                <td>002</td>
-                <td>Rp75.000</td>
-            </tr>
-            <tr>
-                <td>Buku C</td>
-                <td>003</td>
-                <td>Rp100.000</td>
-            </tr>
-        </tbody>
+    <!-- Section 1: Menu -->
+    <table border="1" width="100%">
+        <tr>
+            <td align="center"><a href="#home">Header</a></td>
+            <td align="center"><a href="#biodata">Biodata</a></td>
+            <td align="center"><a href="#portfolio">Portfolio</a></td>
+        </tr>
+    </table>
+    
+    <!-- Section 2: Judul di Kiri dan Gambar di Kanan -->
+    <table border="1" width="100%">
+        <tr>
+            <td width="50%" align="left">
+                <h2>Selamat Datang di Website saya</h2>
+                <p>Ini Adalah contoh header dengan dua kolom, kolom kiri berisi teks seperti ini</p>
+                <button>Pelajari lebih Lanjut</button>
+            </td>
+            <td width="50%" align="center">
+                <img src="https://via.placeholder.com/200" alt="Gambar Contoh">
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Section 3: Biodata dengan 6 Box -->
+    <table border="1" width="100%">
+        <tr>
+            <td colspan="3" align="center"> 
+                <h2>About Me</h2>
+                <p>A Brief Introduction About MySelf</p>
+                
+            </td>
+        </tr>
+        <tr>
+            <td align="center">Full Name</td>
+            <td align="center">Education</td>
+            <td align="center">Kontak</td>
+        </tr>
+        <tr>
+            <td align="center">Hobi</td>
+            <td align="center">Alamat</td>
+            <td align="center">Pekerjaan</td>
+        </tr>
+    </table>
+    
+    <!-- Section 4: Portfolio -->
+    <table border="1" width="100%">
+        <tr>
+            <th colspan="2">Portfolio</th>
+        </tr>
+        <tr>
+            <td align="center"><img src="https://via.placeholder.com/150" alt="Portfolio 1"></td>
+            <td align="center"><img src="https://via.placeholder.com/150" alt="Portfolio 2"></td>
+        </tr>
+        <tr>
+            <td align="center"><img src="https://via.placeholder.com/150" alt="Portfolio 3"></td>
+            <td align="center"><img src="https://via.placeholder.com/150" alt="Portfolio 4"></td>
+        </tr>
     </table>
 </body>
 </html>
