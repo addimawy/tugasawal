@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            background-color: #007bff;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .header img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .biodata {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: center;
+        }
+        .biodata-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .biodata-grid div {
+            background-color: #e0e0e0;
+            color: #333;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .portfolio {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: center;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .portfolio-grid img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Section 1: Menu -->
+        <div class="menu">
+            <a href="#home">Brand</a>
+            <div>
+                <a href="tugas_1.html">Header</a>
+                <a href="#biodata">Biodata</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+        
+        <!-- Section 2: Judul di Kiri dan Gambar di Kanan -->
+        <div class="header">
+            <div>
+                <h2>Selamat Datang di Website Saya</h2>
+                <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+                <button>Pelajari Lebih Lanjut</button>
+            </div>
+            <div>
+                <img src="images/20230508_112142.jpg" alt="Gambar Contoh">
+            </div>
+        </div>
+        
+        <!-- Section 3: Biodata dengan 6 Box -->
+        <div class="biodata">
+            <h2>About Me</h2>
+            <p>A brief introduction about myself</p>
+            <div class="biodata-grid">
+                <div><strong>Full Name:</strong> Ahmad Kholil</div>
+                <div><strong>Education:</strong> S1 Tafsir</div>
+                <div><strong>Pekerjaan:</strong> Programmer</div>
+                <div><strong>Contact:</strong> ahmad@example.com</div>
+                <div><strong>Hobi:</strong> Membaca, Coding</div>
+                <div><strong>Alamat:</strong> Demak</div>
+            </div>
+        </div>
+        
+        <!-- Section 4: Portfolio -->
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div>
+                    <img src="images/STR-1929.jpg" alt="Portfolio 1">
+                    <p>PS Store</p>
+                    <p>Papi Putra Siregar</p>
+                </div>
+                <div>
+                    <img src="images/STR-1981.jpg" alt="Portfolio 2">
+                    <p>Marwah Fc</p>
+                    <p>Habib Usman.</p>
+                </div>
+                <div>
+                    <img src="images/STR-2074.jpg" alt="Portfolio 3">
+                    <p>SSNI</p>
+                    <p>Habib Hasan Ayatullah.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            &copy; 2025 addimawy. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
